@@ -13,10 +13,13 @@ Updated: 2023-06-12 16:56:38
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 body{
    font-family: 'Syne', sans-serif;
+   max-width: 1440px;
+   margin: 0 auto; 
 }
 /* On applique un gris plus clair sur les paragraphes */
 p {
    color: #313332;
+
 }
 /* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
 .hover-effect img {
@@ -27,31 +30,21 @@ p {
    transition: all 0.33s ease-in-out;
    transform: scale(1.05) translateY(-10px);
 }
-
-.footer{
-   display:flex;
-   justify-content: center;
-   color: black;
-   font-family: 'Syne', sans-serif;
-   font-size: 16px;
-   font-weight: 400;
-   background-color: white;
-   padding: 20px; 
-   margin-bottom: 0px;
+/* footer */
+.footer-widget-area{
+  font-weight: 400;
 }
-
+/* header */
 .main-header-menu {
   display:flex;
   align-items: center;
   color:black;
 }
 
-
 .ast-builder-menu-2{
   display:flex;
   justify-content:flex-end;
 }
-
 
 .customize-unpreviewable:hover{
   font-family:'Syne';
@@ -83,6 +76,7 @@ p {
     font-family:"Syne";
     font-size:20px;
     font-weight:400;
+    line-height: 24px;
     position:relative;
 }
 #form-contact .wpcf7-form-control {

@@ -34,11 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	astra_body_bottom();    
 	wp_footer(); 
 ?>
-<footer>
-	<a class="footer"  href="http://localhost:8888/Projet_6_Squalli_Rokaya_V2/Planty/" >
-	Mentions légales
-	</a>
-</footer>
+
 	</body>
 
 </html>

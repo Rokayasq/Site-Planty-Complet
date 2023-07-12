@@ -35,6 +35,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	wp_footer(); 
 ?>
 
-	</body>
+<footer>
+    <?php
+    wp_nav_menu(array( 
+        'menu' => 'footer',
+        'container' => false,
+        'menu_class' => 'footer-menu',
+        'fallback_cb' => false,
+    ));
+    ?>
+</footer>
 
-</html>
